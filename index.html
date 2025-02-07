@@ -1,134 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fashion</title>
-    <!-- Reset CSS -->
-    <link rel="stylesheet" href="./reset.css" />
-    <!-- FontAwesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Index CSS -->
-    <link rel="stylesheet" href="./index.css" />
-  </head>
-  <body>
-    <header class="pb-4">
-      <!-- Birinci hisse -->
-      <div class="w-full bg-gray-100">
-        <div
-          class="container flex items-center justify-between text-gray-400 font-medium text-[10px] tracking-wider"
-        >
-          <button
-            class="btnHeadOne p-2 flex items-center gap-2 hover:bg-gray-200"
-          >
-            <i class="text-sm fa-regular fa-circle-question"></i>
-            <span> Contacts & Help</span>
-          </button>
-          <button
-            class="btnHeadOne p-2 flex items-center gap-2 hover:bg-gray-200"
-          >
-            <i
-              class="bg-white size-[12px] text-[8px] flex items-center justify-center fa-solid fa-globe"
-            ></i>
-            <span
-              class="lang h-[16px] w-[20px] flex items-center justify-center"
-              >EN</span
-            >
-          </button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fashion</title>
+  <!-- Reset CSS -->
+  <link rel="stylesheet" href="./reset.css" />
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Index CSS -->
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+  <header class="pb-4">
+    <!-- Birinci hisse -->
+    <div class="w-full bg-gray-100">
+      <div class="container flex items-center justify-between text-gray-400 font-medium text-[10px] tracking-wider">
+        <button class="btnHeadOne p-2 flex items-center gap-2 hover:bg-gray-200">
+          <i class="text-sm fa-regular fa-circle-question"></i>
+          <span> Contacts & Help</span>
+        </button>
+        <button class="btnHeadOne p-2 flex items-center gap-2 hover:bg-gray-200">
+          <i class="bg-white size-[12px] text-[8px] flex items-center justify-center fa-solid fa-globe"></i>
+          <span class="lang h-[16px] w-[20px] flex items-center justify-center">EN</span>
+        </button>
+      </div>
+    </div>
+    <!-- Ikinci hisse -->
+    <div class="w-full head_two">
+      <div class="flex items-center justify-between container h-[70px]">
+        <div class="flex items-center justify-center gap-4 text-sm font-medium tracking-widest h-full">
+          <a href="#" class="pr-4 h-full flex items-center">Women</a>
+          <a href="#" class="pr-4 h-full flex items-center text-gray-400 hover:text-black">Men</a>
+          <a href="#" class="pr-4 h-full flex items-center text-gray-400 hover:text-black">Kids</a>
+        </div>
+
+        <div>
+          <a href="#" class="about flex text-4xl items-center justify-center gap-[2px] text-white">
+            <h3 class="bg-black w-[86px] px-1 h-[34px]">ABOUT</h3>
+            <h3 class="relative bg-black w-[68px] px-1 h-[34px]">
+              YOU
+              <i class="absolute top-[2px] pl-1 text-xs fa-solid fa-circle-notch"></i>
+            </h3>
+          </a>
+        </div>
+
+        <div class="flex items-center justify-center gap-10 text-xl">
+          <a href="#">
+            <i class="fa-solid fa-ticket"></i>
+          </a>
+          <a href="#">
+            <i class="fa-regular fa-user"></i>
+          </a>
+          <a href="#">
+            <i class="fa-regular fa-bell"></i>
+          </a>
+          <a href="#">
+            <i class="fa-regular fa-heart"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
         </div>
       </div>
-      <!-- Ikinci hisse -->
-      <div class="w-full head_two">
-        <div class="flex items-center justify-between container h-[70px]">
-          <div
-            class="flex items-center justify-center gap-4 text-sm font-medium tracking-widest h-full"
-          >
-            <a href="#" class="pr-4 h-full flex items-center">Women</a>
-            <a
-              href="#"
-              class="pr-4 h-full flex items-center text-gray-400 hover:text-black"
-              >Men</a
-            >
-            <a
-              href="#"
-              class="pr-4 h-full flex items-center text-gray-400 hover:text-black"
-              >Kids</a
-            >
-          </div>
+    </div>
+    <!-- Ucuncu hisse -->
+    <div class="container flex items-center justify-between h-[60px]">
+      <ul class="h-full gap-4 flex items-center text-sm font-medium tracking-wider">
+        <li><a class="hover:bg-gray-200 p-1" href="#">Drops</a></li>
+        <li><a class="hover:bg-gray-200 p-1" href="#">Clothing</a></li>
+        <li><a class="hover:bg-gray-200 p-1" href="#">Shoes</a></li>
+        <li><a class="hover:bg-gray-200 p-1" href="#">Sportswear</a></li>
+        <li><a class="hover:bg-gray-200 p-1" href="#">Accessories</a></li>
+        <li><a class="hover:bg-gray-200 p-1" href="#">Premium</a></li>
+        <li>
+          <a class="text-red-500 hover:bg-gray-200 p-1" href="#">SALE</a>
+        </li>
+        <li><a class="hover:bg-gray-200 p-1" href="#">Top 100</a></li>
+        <li><a class="hover:bg-gray-200 p-1" href="#">Brands</a></li>
+        <li><a class="hover:bg-gray-200 p-1" href="#">Inspiration</a></li>
+      </ul>
 
-          <div>
-            <a
-              href="#"
-              class="about flex text-4xl items-center justify-center gap-[2px] text-white"
-            >
-              <h3 class="bg-black w-[86px] px-1 h-[34px]">ABOUT</h3>
-              <h3 class="relative bg-black w-[68px] px-1 h-[34px]">
-                YOU
-                <i
-                  class="absolute top-[2px] pl-1 text-xs fa-solid fa-circle-notch"
-                ></i>
-              </h3>
-            </a>
-          </div>
-
-          <div class="flex items-center justify-center gap-10 text-xl">
-            <a href="#">
-              <i class="fa-solid fa-ticket"></i>
-            </a>
-            <a href="#">
-              <i class="fa-regular fa-user"></i>
-            </a>
-            <a href="#">
-              <i class="fa-regular fa-bell"></i>
-            </a>
-            <a href="#">
-              <i class="fa-regular fa-heart"></i>
-            </a>
-            <a href="#">
-              <i class="fa-solid fa-basket-shopping"></i>
-            </a>
-          </div>
-        </div>
+      <div class="bg-gray-100 w-[300px] h-[36px] flex items-center gap-2 px-2 rounded-[5px]">
+        <i class="text-sm fa-solid fa-magnifying-glass"></i>
+        <input class="w-full bg-transparent text" type="text" placeholder="Search for items,brands and more..." />
       </div>
-      <!-- Ucuncu hisse -->
-      <div class="container flex items-center justify-between h-[60px]">
-        <ul
-          class="h-full gap-4 flex items-center text-sm font-medium tracking-wider"
-        >
-          <li><a class="hover:bg-gray-200 p-1" href="#">Drops</a></li>
-          <li><a class="hover:bg-gray-200 p-1" href="#">Clothing</a></li>
-          <li><a class="hover:bg-gray-200 p-1" href="#">Shoes</a></li>
-          <li><a class="hover:bg-gray-200 p-1" href="#">Sportswear</a></li>
-          <li><a class="hover:bg-gray-200 p-1" href="#">Accessories</a></li>
-          <li><a class="hover:bg-gray-200 p-1" href="#">Premium</a></li>
-          <li>
-            <a class="text-red-500 hover:bg-gray-200 p-1" href="#">SALE</a>
-          </li>
-          <li><a class="hover:bg-gray-200 p-1" href="#">Top 100</a></li>
-          <li><a class="hover:bg-gray-200 p-1" href="#">Brands</a></li>
-          <li><a class="hover:bg-gray-200 p-1" href="#">Inspiration</a></li>
-        </ul>
-
-        <div
-          class="bg-gray-100 w-[300px] h-[36px] flex items-center gap-2 px-2 rounded-[5px]"
-        >
-          <i class="text-sm fa-solid fa-magnifying-glass"></i>
-          <input
-            class="w-full bg-transparent text"
-            type="text"
-            placeholder="Search for items,brands and more..."
-          />
-        </div>
+    </div>
+    <!-- Dorduncu hisse -->
+    <div class="w-full bg-black text-white flex items-center justify-evenly gap-[100px] text-xs h-[34px]">
+      <div class="flex items-center gap-4">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <p>FREE SHIPPING</p>
       </div>
-      <!-- Dorduncu hisse -->
-      <div
-        class="w-full bg-black text-white flex items-center justify-evenly gap-[100px] text-xs h-[34px]"
-      >
+
+      <div class="flex items-center gap-4">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <p>FREE SHIPPING</p>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <p>FREE SHIPPING</p>
+      </div>
+    </div>
+  </header>
+  <!-- MAIN HISSE -->
+  <main>
+    <section class="container">
+      <div class="bg-gray-100 flex items-center justify-evenly gap-4 text-xs h-[34px]">
+        <div class="flex items-center gap-4">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p>FREE SHIPPING</p>
+        </div>
+
         <div class="flex items-center gap-4">
           <i class="fa-solid fa-cart-shopping"></i>
           <p>FREE SHIPPING</p>
@@ -144,256 +132,205 @@
           <p>FREE SHIPPING</p>
         </div>
       </div>
-    </header>
-    <!-- MAIN HISSE -->
-    <main>
-      <section class="container">
-        <div
-          class="bg-gray-100 flex items-center justify-evenly gap-4 text-xs h-[34px]"
-        >
-          <div class="flex items-center gap-4">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <p>FREE SHIPPING</p>
-          </div>
 
-          <div class="flex items-center gap-4">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <p>FREE SHIPPING</p>
-          </div>
-
-          <div class="flex items-center gap-4">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <p>FREE SHIPPING</p>
-          </div>
-
-          <div class="flex items-center gap-4">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <p>FREE SHIPPING</p>
-          </div>
-        </div>
-
-        <div class="flex gap-[1px] text-white">
-          <!-- Left HISSE -->
-          <div class="w-[63%] relative">
-            <img
-              class="object-cover w-full h-full"
-              src="https://cdn.aboutstatic.com/file/images/37d53a19c7bea0fc272b41cc5adf2a53.jpg?width=1500&quality=90"
-            />
-            <div class="absolute z-[2] bottom-[18%] left-[60px] w-[60%]">
-              <h3 class="text-[40px] font-black leading-[50px]">
-                Your new fashion experience.
-              </h3>
-              <p class="text-xl font-bold pt-4 pb-8">
-                Discover our great style and brand variety that fits you
-                perfetcly.
-              </p>
-              <div class="flex items-center gap-4 text-sm font-semibold">
-                <a
-                  href="#"
-                  class="w-[180px] h-[46px] rounded-[5px] flex items-center justify-center bg-white text-black"
-                  >Women</a
-                >
-                <a
-                  href="#"
-                  class="w-[180px] h-[46px] rounded-[5px] flex items-center justify-center bg-white text-black"
-                  >Men</a
-                >
-                <a
-                  href="#"
-                  class="w-[180px] h-[46px] rounded-[5px] flex items-center justify-center bg-white text-black"
-                  >Kids</a
-                >
-              </div>
+      <div class="flex gap-[1px] text-white">
+        <!-- Left HISSE -->
+        <div class="w-[63%] relative">
+          <img class="object-cover w-full h-full"
+            src="https://cdn.aboutstatic.com/file/images/37d53a19c7bea0fc272b41cc5adf2a53.jpg?width=1500&quality=90" />
+          <div class="absolute z-[2] bottom-[18%] left-[60px] w-[60%]">
+            <h3 class="text-[40px] font-black leading-[50px]">
+              Your new fashion experience.
+            </h3>
+            <p class="text-xl font-bold pt-4 pb-8">
+              Discover our great style and brand variety that fits you
+              perfetcly.
+            </p>
+            <div class="flex items-center gap-4 text-sm font-semibold">
+              <a href="#"
+                class="w-[180px] h-[46px] rounded-[5px] flex items-center justify-center bg-white text-black">Women</a>
+              <a href="#"
+                class="w-[180px] h-[46px] rounded-[5px] flex items-center justify-center bg-white text-black">Men</a>
+              <a href="#"
+                class="w-[180px] h-[46px] rounded-[5px] flex items-center justify-center bg-white text-black">Kids</a>
             </div>
-            <div class="w-full h-full bg-black/30 z-[1] absolute top-0"></div>
           </div>
-          <!-- Right HISSE -->
-          <div class="w-[37%] relative">
-            <img
-              src="https://cdn.aboutstatic.com/file/images/f1760e3c88230dea905fcfe8c79684f5.jpg?width=1000&quality=90"
-            />
-            <div class="absolute z-[2] bottom-[28%] left-[70px] w-[360px]">
-              <h3 class="text-[32px] font-black pb-8">We have them all!</h3>
-              <a
-                href="#"
-                class="text-sm font-medium pt-8 underline tracking-wider"
-                >Shop our celebrity collections co-createdby ABOUT YOU.</a
-              >
-            </div>
-            <div class="w-full bg-black/30 z-[1] absolute top-0 h-full"></div>
+          <div class="w-full h-full bg-black/30 z-[1] absolute top-0"></div>
+        </div>
+        <!-- Right HISSE -->
+        <div class="w-[37%] relative">
+          <img
+            src="https://cdn.aboutstatic.com/file/images/f1760e3c88230dea905fcfe8c79684f5.jpg?width=1000&quality=90" />
+          <div class="absolute z-[2] bottom-[28%] left-[70px] w-[360px]">
+            <h3 class="text-[32px] font-black pb-8">We have them all!</h3>
+            <a href="#" class="text-sm font-medium pt-8 underline tracking-wider">Shop our celebrity collections
+              co-createdby ABOUT YOU.</a>
           </div>
+          <div class="w-full bg-black/30 z-[1] absolute top-0 h-full"></div>
         </div>
+      </div>
 
-        <div class="photo grid grid-cols-4 gap-[1px] mt-[1px] pb-[50px]">
-          <a class="relative overflow-hidden group" href="#">
-            <img
-              class="w-full object-cover transform-translate duration-300 group-hover:scale-110"
-              src="https://cdn.aboutstatic.com/file/732a55ba1a70e4ad4ee7cfb787f89cb3.jpg?width=300&height=300&quality=90"
-            />
-            <img
-              class="absolute z-[2] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-              src="https://cdn.aboutstatic.com/file/257763b57c7b32cf17e61d39f1763fdd.png?width=90&height=50&quality=90&trim=1&transparent=1"
-            />
-            <div class="absolute w-full h-full z-[1] bg-black/30 top-0"></div>
-          </a>
+      <div class="photo grid grid-cols-4 gap-[1px] mt-[1px] pb-[50px]">
+        <a class="relative overflow-hidden group" href="#">
+          <img class="w-full object-cover transform-translate duration-300 group-hover:scale-110"
+            src="https://cdn.aboutstatic.com/file/732a55ba1a70e4ad4ee7cfb787f89cb3.jpg?width=300&height=300&quality=90" />
+          <img class="absolute z-[2] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+            src="https://cdn.aboutstatic.com/file/257763b57c7b32cf17e61d39f1763fdd.png?width=90&height=50&quality=90&trim=1&transparent=1" />
+          <div class="absolute w-full h-full z-[1] bg-black/30 top-0"></div>
+        </a>
 
-          <a class="relative group overflow-hidden" href="#">
-            <img
-              class="w-full object-cover transition-transform duration-300 group-hover:scale-110"
-              src="https://cdn.aboutstatic.com/file/e751089508e513b25e4704be8f4c8638.jpg?width=300&height=300&quality=90"
-            />
-            <img
-              class="absolute z-[2] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-              src="https://cdn.aboutstatic.com/file/d3d55a7b72308e90a25be00033273aaa?width=100&height=60&quality=90&trim=1&transparent=1"
-            />
-            <div class="absolute w-full h-full z-[1] bg-black/30 top-0"></div>
-          </a>
+        <a class="relative group overflow-hidden" href="#">
+          <img class="w-full object-cover transition-transform duration-300 group-hover:scale-110"
+            src="https://cdn.aboutstatic.com/file/e751089508e513b25e4704be8f4c8638.jpg?width=300&height=300&quality=90" />
+          <img class="absolute z-[2] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+            src="https://cdn.aboutstatic.com/file/d3d55a7b72308e90a25be00033273aaa?width=100&height=60&quality=90&trim=1&transparent=1" />
+          <div class="absolute w-full h-full z-[1] bg-black/30 top-0"></div>
+        </a>
 
-          <a class="relative overflow-hidden group" href="#">
-            <img
-              class="w-full object-cover transform-translate duration-300 group-hover:scale-110"
-              src="https://cdn.aboutstatic.com/file/4d7b485834a254061ad89b428122ded6.jpg?width=300&height=300&quality=90"
-            />
-            <img
-              class="absolute z-[2] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-              src="https://cdn.aboutstatic.com/file/0f70909897e25b949997f49b1375e1be.png?width=110&height=70&quality=90&trim=1&transparent=1"
-            />
-            <div class="absolute w-full h-full z-[1] bg-black/30 top-0"></div>
-          </a>
+        <a class="relative overflow-hidden group" href="#">
+          <img class="w-full object-cover transform-translate duration-300 group-hover:scale-110"
+            src="https://cdn.aboutstatic.com/file/4d7b485834a254061ad89b428122ded6.jpg?width=300&height=300&quality=90" />
+          <img class="absolute z-[2] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+            src="https://cdn.aboutstatic.com/file/0f70909897e25b949997f49b1375e1be.png?width=110&height=70&quality=90&trim=1&transparent=1" />
+          <div class="absolute w-full h-full z-[1] bg-black/30 top-0"></div>
+        </a>
 
-          <a class="relative overflow-hidden group" href="#">
-            <img
-              class="w-full object-cover transform-translate duration-300 group-hover:scale-110"
-              src="https://cdn.aboutstatic.com/file/021a77c5a5ef6d76ff14bf9b2aaa54d7.jpg?width=300&height=300&quality=90"
-            />
-            <img
-              class="absolute z-[2] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-              src="https://cdn.aboutstatic.com/file/223cfd0ebda6456a707fa02de0fc5248?width=110&height=70&quality=90&trim=1&transparent=1"
-            />
-            <div class="absolute w-full h-full z-[1] bg-black/30 top-0"></div>
-          </a>
-        </div>
-      </section>
+        <a class="relative overflow-hidden group" href="#">
+          <img class="w-full object-cover transform-translate duration-300 group-hover:scale-110"
+            src="https://cdn.aboutstatic.com/file/021a77c5a5ef6d76ff14bf9b2aaa54d7.jpg?width=300&height=300&quality=90" />
+          <img class="absolute z-[2] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+            src="https://cdn.aboutstatic.com/file/223cfd0ebda6456a707fa02de0fc5248?width=110&height=70&quality=90&trim=1&transparent=1" />
+          <div class="absolute w-full h-full z-[1] bg-black/30 top-0"></div>
+        </a>
+      </div>
+    </section>
 
-      <article class="mt-[50px] container">
-        <div class="pb-[60px] px-[80px]">
-          <h3 class="font-semibold tex-[12px]">
-            Large selection, easy ordering - online ladieswear on ABOUT YOU
-          </h3>
-          <p class="text-gray-400 text-[12px] font-medium">
-            Women and shopping go together like no other, which is why ABOUT YOU
-            knows women's fashion best of all. Our large selection of diverse
-            brands has everything you need for your next outfit: from A for
-            accessory to Z for zipper. Browse the latest trends or let yourself
-            be inspired by classic cuts and models. Your order will be delivered
-            to your house quickly and conveniently. And if one of the items is
-            not to your taste, you can return it free of charge.
-          </p>
-        </div>
+    <article class="mt-[50px] container">
+      <div class="pb-[60px] px-[80px]">
+        <h3 class="font-semibold tex-[12px]">
+          Large selection, easy ordering - online ladieswear on ABOUT YOU
+        </h3>
+        <p class="text-gray-400 text-[12px] font-medium">
+          Women and shopping go together like no other, which is why ABOUT YOU
+          knows women's fashion best of all. Our large selection of diverse
+          brands has everything you need for your next outfit: from A for
+          accessory to Z for zipper. Browse the latest trends or let yourself
+          be inspired by classic cuts and models. Your order will be delivered
+          to your house quickly and conveniently. And if one of the items is
+          not to your taste, you can return it free of charge.
+        </p>
+      </div>
 
-        <div class="pb-[60px] px-[80px]">
-          <h3 class="font-semibold tex-[12px]">
-            Large selection, easy ordering - online ladieswear on ABOUT YOU
-          </h3>
-          <p class="text-gray-400 text-[12px] font-medium">
-            Women and shopping go together like no other, which is why ABOUT YOU
-            knows women's fashion best of all. Our large selection of diverse
-            brands has everything you need for your next outfit: from A for
-            accessory to Z for zipper. Browse the latest trends or let yourself
-            be inspired by classic cuts and models. Your order will be delivered
-            to your house quickly and conveniently. And if one of the items is
-            not to your taste, you can return it free of charge.
-          </p>
-        </div>
+      <div class="pb-[60px] px-[80px]">
+        <h3 class="font-semibold tex-[12px]">
+          Large selection, easy ordering - online ladieswear on ABOUT YOU
+        </h3>
+        <p class="text-gray-400 text-[12px] font-medium">
+          Women and shopping go together like no other, which is why ABOUT YOU
+          knows women's fashion best of all. Our large selection of diverse
+          brands has everything you need for your next outfit: from A for
+          accessory to Z for zipper. Browse the latest trends or let yourself
+          be inspired by classic cuts and models. Your order will be delivered
+          to your house quickly and conveniently. And if one of the items is
+          not to your taste, you can return it free of charge.
+        </p>
+      </div>
 
-        <div class="pb-[60px] px-[80px]">
-          <h3 class="font-semibold tex-[12px]">
-            Large selection, easy ordering - online ladieswear on ABOUT YOU
-          </h3>
-          <p class="text-gray-400 text-[12px] font-medium">
-            Women and shopping go together like no other, which is why ABOUT YOU
-            knows women's fashion best of all. Our large selection of diverse
-            brands has everything you need for your next outfit: from A for
-            accessory to Z for zipper. Browse the latest trends or let yourself
-            be inspired by classic cuts and models. Your order will be delivered
-            to your house quickly and conveniently. And if one of the items is
-            not to your taste, you can return it free of charge.
-          </p>
-        </div>
+      <div class="pb-[60px] px-[80px]">
+        <h3 class="font-semibold tex-[12px]">
+          Large selection, easy ordering - online ladieswear on ABOUT YOU
+        </h3>
+        <p class="text-gray-400 text-[12px] font-medium">
+          Women and shopping go together like no other, which is why ABOUT YOU
+          knows women's fashion best of all. Our large selection of diverse
+          brands has everything you need for your next outfit: from A for
+          accessory to Z for zipper. Browse the latest trends or let yourself
+          be inspired by classic cuts and models. Your order will be delivered
+          to your house quickly and conveniently. And if one of the items is
+          not to your taste, you can return it free of charge.
+        </p>
+      </div>
 
-        <div class="pb-[60px] px-[80px]">
-          <h3 class="font-semibold tex-[12px]">
-            Large selection, easy ordering - online ladieswear on ABOUT YOU
-          </h3>
-          <p class="text-gray-400 text-[12px] font-medium">
-            Women and shopping go together like no other, which is why ABOUT YOU
-            knows women's fashion best of all. Our large selection of diverse
-            brands has everything you need for your next outfit: from A for
-            accessory to Z for zipper. Browse the latest trends or let yourself
-            be inspired by classic cuts and models. Your order will be delivered
-            to your house quickly and conveniently. And if one of the items is
-            not to your taste, you can return it free of charge.
-          </p>
-        </div>
-      </article>
+      <div class="pb-[60px] px-[80px]">
+        <h3 class="font-semibold tex-[12px]">
+          Large selection, easy ordering - online ladieswear on ABOUT YOU
+        </h3>
+        <p class="text-gray-400 text-[12px] font-medium">
+          Women and shopping go together like no other, which is why ABOUT YOU
+          knows women's fashion best of all. Our large selection of diverse
+          brands has everything you need for your next outfit: from A for
+          accessory to Z for zipper. Browse the latest trends or let yourself
+          be inspired by classic cuts and models. Your order will be delivered
+          to your house quickly and conveniently. And if one of the items is
+          not to your taste, you can return it free of charge.
+        </p>
+      </div>
+    </article>
 
-      <section>
-        <div
-          class="w-full bg-yellow-200 flex items-center justify-evenly text-xs h-[50px]"
-        >
-          <div id="group1" class="flex items-center gap-4">
+    <section>
+      <div id="slider" class="w-full bg-yellow-200 flex items-center justify-evenly text-xs h-[50px]">
+        <div class="sliderFirst flex">
+          <div id="group1" class="sliderGroup flex items-center gap-4">
             <i class="fa-solid fa-cart-shopping"></i>
             <p>FREE SHIPPING</p>
           </div>
 
-          <div class="flex items-center gap-4">
+          <div class="sliderGroup flex items-center gap-4">
             <i class="fa-solid fa-cart-shopping"></i>
             <p>30 DAY RETURN POLICY</p>
           </div>
 
-          <div class="flex items-center gap-4">
+          <div class="sliderGroup flex items-center gap-4">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p>FREE SHIPPING</p>
+          </div>
+        </div>
+
+        <div class="sliderSecond flex">
+          <div class="sliderGroup flex items-center gap-4">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p>30 DAY RETURN POLICY</p>
+          </div>
+
+          <div class="sliderGroup flex items-center gap-4">
             <i class="fa-solid fa-cart-shopping"></i>
             <p>FREE SHIPPING</p>
           </div>
 
-          <div id="group4" class="flex items-center gap-4 hidden">
+          <div id="group4" class="sliderGroup flex items-center gap-4 ">
             <i class="fa-solid fa-cart-shopping"></i>
             <p>SECURE PAYMENTS</p>
           </div>
         </div>
 
-        <div
-          class="w-full bg-gray-200 flex items-center justify-evenly h-[60px]"
-        >
-          <img
-            class="w-[44px] h-[28px] grayscale"
-            src="https://cdn.aboutstatic.com/file/d07ba01e482787641818be31ed4100b9.png?quality=75&height=75&width=150"
-          />
+      </div>
+      <div class="w-full bg-gray-200 flex items-center justify-evenly h-[60px]">
+        <img class="w-[44px] h-[28px] grayscale"
+          src="https://cdn.aboutstatic.com/file/d07ba01e482787641818be31ed4100b9.png?quality=75&height=75&width=150" />
 
-          <img
-            class="w-[44px] h-[28px] grayscale"
-            src="https://cdn.aboutstatic.com/file/d07ba01e482787641818be31ed4100b9.png?quality=75&height=75&width=150"
-          />
+        <img class="w-[44px] h-[28px] grayscale"
+          src="https://cdn.aboutstatic.com/file/d07ba01e482787641818be31ed4100b9.png?quality=75&height=75&width=150" />
 
-          <img
-            class="w-[44px] h-[28px] grayscale"
-            src="https://cdn.aboutstatic.com/file/d07ba01e482787641818be31ed4100b9.png?quality=75&height=75&width=150"
-          />
+        <img class="w-[44px] h-[28px] grayscale"
+          src="https://cdn.aboutstatic.com/file/d07ba01e482787641818be31ed4100b9.png?quality=75&height=75&width=150" />
+      </div>
+
+      <div class="text-center mt-[40px]">
+        <h2 class="text-2xl tracking-wider font-bold">Dont miss a thing!</h2>
+        <p class="text-sm font-bold tracking-wide py-4">Sign up for the newsletter and receive exclusive offers</p>
+        <div class="flex items-center justify-center gap-4">
+          <input id="women" type="radio" name="option"
+            class="appearance-none cursor-pointer w-5 h-5 border-2 border-black rounded-full checked bg-black">
+          <label for="women" class="font-bold cursor-pointer">For women</label>
+          <input id="men" type="radio" name="option"
+            class="appearance-none cursor-pointer w-5 h-5 border-2 border-gray-400 rounded-full checked:bg-black checked:border-black">
+          <label for="men" class="font-bold text-gray-400 cursor-pointer">For men</label>
         </div>
+      </div>
+    </section>
 
-        <div class="text-center mt-[40px]">
-            <h2 class="text-2xl tracking-wider font-bold">Dont miss a thing!</h2>
-            <p class="text-sm font-bold tracking-wide py-4">Sign up for the newsletter and receive exclusive offers</p>
-            <div class="flex items-center justify-center gap-4">
-                <input id="women" type="radio" name="option" class="appearance-none cursor-pointer w-5 h-5 border-2 border-black rounded-full checked bg-black">
-                <label for="women" class="font-bold cursor-pointer">For women</label>
-                <input id="men" type="radio" name="option" class="appearance-none cursor-pointer w-5 h-5 border-2 border-gray-400 rounded-full checked:bg-black checked:border-black">
-                <label for="men" class="font-bold text-gray-400 cursor-pointer">For men</label>
-            </div>
-        </div>
-      </section>
+    <script src="./index.js"></script>
+  </main>
+</body>
 
-      <script src="./index.js"></script>
-    </main>
-  </body>
 </html>
