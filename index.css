@@ -12,8 +12,27 @@ body {
   border-left: 0.3px solid rgb(229, 231, 235);
   border-right: 0.3px solid rgb(229, 231, 235);
 }
+.modalLang{
+  display: none;
+  box-shadow: 0 0 5px 1px gray;
+}
+.btnLang:hover .modalLang{
+ display: block;
+}
 .lang {
   border: 0.3px solid rgb(185, 182, 182);
+}
+.gender_w{
+  position: relative;
+}
+.gender_w::after{
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+ content: '';
+ width: 30px;
+ height: 1px;
+ background-color: black;
 }
 .about {
   font-family: "Bebas Neue", serif;
@@ -30,38 +49,83 @@ input::placeholder {
   border-bottom: 0.3px solid rgb(229, 231, 235);
 }
 
-.slide {
-  transition: transform 0.5s ease-in-out;
-}
-
-.slide-left {
-  transform: translateX(-100%);
-}
-
-.slide-right {
-  transform: translateX(100%);
-}
-
-#slider {
-  overflow: hidden;
-  /* padding-left: 300px; */
-}
-
-.sliderFirst {
-  transition: 0.6s linear;
-  justify-content: center;
-  min-width: 100%;
-  gap: 20%;
-}
-
+.sliderFirst,
 .sliderSecond {
-    transition: 0.6s linear;
-    justify-content: center;
-    min-width: 100%;
-    gap: 20%;
+  transition: 0.6s linear;
 }
 
-.sliderGroup {
-  display: flex;
-  justify-content: center;
+/* Input radio */ 
+.radio-input input {
+  border-radius: 50%;
+  border: 2px solid gray;
+}
+.radio-input label input:checked + .text {
+ color: black;
+}
+.radio-input label input:checked {
+  background-color: white;
+  border: 2px solid black;
+  -webkit-animation: puls 0.7s forwards;
+  animation: pulse 0.7s forwards;
+}
+
+.radio-input label input:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  transition: all 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  background-color: black;
+  transform: scale(0);
+}
+
+.radio-input label input:checked::before {
+  transform: scale(1);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+
+/* Email */ 
+.input-field label {
+  transform: translateY(0.6rem);
+  transition: all 0.3s ease;
+}
+
+.input-field input:focus,
+.input-field input:valid {
+  outline: none;
+  border: .5px solid black;
+  background-color: #fff;
+}
+
+.input-field input:focus ~ label,
+.input-field input:valid ~ label {
+  transform: translateY(-46%) translateX(-10px) scale(0.8);
+  background-color: #fff;
+  padding: 0px 5px;
+  color: black;
+}
+
+.btn{
+  transition: transform 0.3s ease;
+}
+.btn:hover{
+  box-shadow: 0 0 5px 1px gray;
+  transform: translateY(-5px);
+}
+
+.textMain{
+  border-bottom: 0.3px solid rgb(229, 231, 235);
+  border-top: 0.3px solid rgb(229, 231, 235);
 }
